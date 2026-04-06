@@ -1,0 +1,26 @@
+/* sr-auto-extension/sidepanel.css */
+
+/* --- Import Tokenów i Globalnych Stylów (BASE) --- */
+@import url('styles/base/tokens.css');
+@import url('styles/base/global.css');
+@import url('styles/base/ui_elements.css');
+
+/* --- Import Stylów Sekcji UI --- */
+@import url('styles/ui/lists.css');
+@import url('styles/ui/chat.css');
+@import url('styles/ui/switches.css');
+@import url('styles/ui/chat_bubbles.css');
+@import url('styles/ui/screenshot_preview.css');
+@import url('styles/ui/suggestions.css');
+@import url('styles/ui/macros.css');
+@import url('styles/ui/settings.css');
+@import url('styles/ui/scratchpad.css');
+@import url('styles/ui/scratchpad_editor.css');
+@import url('styles/ui/markdown_code.css');
+
+/* --- Import Stylów Narzędziowych --- */
+@import url('styles/utils/custom_select.css');
+@import url('styles/utils/modal.css');
+
+/* --- Media Queries (Zawsze na końcu) --- */
+@import url('styles/base/media_queries.css');

@@ -1,0 +1,32 @@
+{
+  "watchFolder": "./",
+  "outputFile": "context_sr-auto-extension.txt",
+  "allowedExtensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx",
+    ".css",
+    ".html",
+    ".json",
+    ".py",
+    ".java",
+    ".md",
+    ".kt",
+    ".xml",
+    ".gradle",
+    ".properties"
+  ],
+  "ignorePatterns": [
+    "node_modules",
+    ".git",
+    ".next",
+    "dist",
+    "build",
+    "package-lock.json",
+    "yarn.lock",
+    "context_sr-auto-extension.txt",
+    ".idea",
+    ".gradle"
+  ]
+}
