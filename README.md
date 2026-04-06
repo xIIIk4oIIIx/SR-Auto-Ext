@@ -1,4 +1,4 @@
-# 🤖 SR Auto Extension (SalesRobots Automator & AI)
+# 🤖 SR Auto Extension (SR Automator & AI)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Manifest_V3-Chrome_API-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Manifest V3" />
