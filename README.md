@@ -8,8 +8,6 @@
 
 Rozbudowane rozszerzenie przeglądarki Chrome stworzone w celu głębokiej automatyzacji pracy wewnątrz panelu SalesRobots. Aplikacja łączy w sobie potężny system nagrywania makr z inteligentnym asystentem AI, znacząco redukując czas poświęcany na powtarzalne, manualne operacje w przeglądarce.
 
-> **💡 Potencjał biznesowy (Zastosowanie w TMS):** Systemy nagrywania makr i bezpośrednia manipulacja strukturą DOM (Content Scripts) to idealne rozwiązanie do integracji z zewnętrznymi giełdami transportowymi (np. Trans.eu, TimoCom), które często nie udostępniają otwartego API. Technologia ta pozwala na stworzenie narzędzi dla spedytorów, które "jednym kliknięciem" publikują ładunki, uzupełniają powtarzalne trasy lub masowo filtrują oferty bezpośrednio na stronach giełd.
-
 ## ✨ Główne funkcje
 
 * **Zaawansowany System Makr:** Moduł pozwalający na nagrywanie (event listener), precyzyjną edycję kroków oraz zautomatyzowane odtwarzanie sekwencji kliknięć i wprowadzania danych w interfejsie przeglądarki.
