@@ -6,13 +6,13 @@
   <img src="https://img.shields.io/badge/AI-Vision_%26_Text-9D4EDD?style=flat-square" alt="AI Models" />
 </p>
 
-Rozbudowane rozszerzenie przeglądarki Chrome stworzone w celu głębokiej automatyzacji pracy wewnątrz panelu SalesRobots. Aplikacja łączy w sobie potężny system nagrywania makr z inteligentnym asystentem AI, znacząco redukując czas poświęcany na powtarzalne, manualne operacje w przeglądarce.
+Rozbudowane rozszerzenie przeglądarki Chrome stworzone w celu głębokiej automatyzacji pracy wewnątrz panelu SR. Aplikacja łączy w sobie potężny system nagrywania makr z inteligentnym asystentem AI, znacząco redukując czas poświęcany na powtarzalne, manualne operacje w przeglądarce.
 
 ## ✨ Główne funkcje
 
 * **Zaawansowany System Makr:** Moduł pozwalający na nagrywanie (event listener), precyzyjną edycję kroków oraz zautomatyzowane odtwarzanie sekwencji kliknięć i wprowadzania danych w interfejsie przeglądarki.
 * **Czat AI (Vision & Text):** Zintegrowany asystent sztucznej inteligencji zdolny do analizy zarówno tekstu, jak i obrazu (rozpoznawanie elementów interfejsu). Dynamicznie dobiera odpowiedni model z API OpenRouter na podstawie kontekstu zadania.
-* **Prompt Architect:** Narzędzie optymalizujące polecenia dla AI, poprawiające jakość i precyzję zwracanych wyników ("Prompt Engineering").
+* **Prompt & Context Manager:** System umożliwiający tworzenie i edycję własnych szablonów poleceń , które są automatycznie wzbogacane o predefiniowane instrukcje systemowe definiujące rolę AI oraz ustrukturyzowany kontekst aktualnie przeglądanej strony.
 * **Głęboka Modyfikacja DOM:** Rozszerzenie wstrzykuje autorskie nakładki na oryginalną stronę, umożliwiając m.in. zaawansowane filtrowanie tabel, masowe zaznaczanie elementów i ekstrakcję danych.
 * **Bezpieczny Storage:** Bezpieczne przechowywanie kluczy konfiguracyjnych i API przy użyciu natywnego `chrome.storage.local`.
 
@@ -33,10 +33,34 @@ Rozbudowane rozszerzenie przeglądarki Chrome stworzone w celu głębokiej autom
 
 ## 📸 Zrzuty ekranu / Demo Action
 
-*(Miejsce na wstawienie zrzutów ekranu - polecam pokazać kreator nagrywania makr oraz otwarty panel czatu AI!)*
-
-| Edytor Makr (Nagrywanie) | Czat AI z modelem wizyjnym | Narzędzie Prompt Architect |
-|:---:|:---:|:---:|
-| <img height="350" src="link_do_screena_1.png" alt="Macro Builder"> | <img width="1912" height="1076" alt="Image" src="https://github.com/user-attachments/assets/2b3e8f1f-4d5d-424d-b45e-d47229aa0b0d" /> <img width="415" height="1067" alt="Image" src="https://github.com/user-attachments/assets/4f6ca483-5ec3-4951-96d5-b67f0a81b733" /> | <img height="350" src="link_do_screena_3.png" alt="Prompt Architect"> |
-
-co zrobić aby dwa zdjęcia z jednej kolumny w tabelce były koło siebie a nie pod sobą?
+<table>
+  <thead>
+    <tr>
+      <th width="33%">Edytor Makr (Nagrywanie)</th>
+      <th width="33%">Czat AI z modelem wizyjnym</th>
+      <th width="33%">Pozostałe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <img width="100%" src="https://github.com/user-attachments/assets/86f7586a-a84e-490a-a2be-5080c9c3d845" /><br><br>
+        <img width="100%" src="https://github.com/user-attachments/assets/da03242f-bfea-40cb-9940-d73498b13d20" />
+      </td>
+      
+   <td valign="top" align="center">
+        <img width="100%" src="https://github.com/user-attachments/assets/51c281fe-18f3-4d37-95f1-e1b9cef66450" /><br><br>
+        <img width="100%" src="https://github.com/user-attachments/assets/9bb38ce2-dc49-411c-bc80-cee284ef7fa2" /><br><br>
+        <img width="100%" src="https://github.com/user-attachments/assets/7d7eb574-8dd1-4c50-bef1-53e9f654a76b" />
+      </td>
+      
+  <td valign="top" align="center">
+        <img width="48%" src="https://github.com/user-attachments/assets/4436ee5e-98e3-4a04-9e7f-7bad24282a79" />
+        <img width="48%" src="https://github.com/user-attachments/assets/a8cf293e-29be-40f2-9a74-a299df15d11e" /><br><br>
+        <img width="48%" src="https://github.com/user-attachments/assets/df175fc5-4d8f-4961-8bbf-a6db5fcac583" />
+        <img width="48%" src="https://github.com/user-attachments/assets/13745148-93ed-441b-977a-bf56d2d6728a" /><br><br>
+        <img width="48%" src="https://github.com/user-attachments/assets/8cee15a9-7cf1-4bb7-8bcf-544c8350244c" />
+      </td>
+    </tr>
+  </tbody>
+</table>
